@@ -6,7 +6,7 @@ function Footer() {
     <FooterSection className='px-[200px] flex flex-col'>
         <div className='grid grid-cols-3 text-white py-[150px]'>
             <div className='flex flex-col'>
-                <h2 className='font-semibold font-cormorant text-5xl mb-6'>Our Facilities</h2>
+                <h2 className='font-semibold font-cormorant text-base lg:text-3xl mb-6'>Our Facilities</h2>
                 <div className='grid grid-cols-2 text-base lg:text-xl gap-y-3 gap-8'>
                     <a className='hover:text-primaryText font-medium' href='www.demo.com'>Indian Menu</a>
                     <a className='hover:text-primaryText font-medium' href='www.demo.com'>Popular Item</a>
@@ -29,7 +29,7 @@ function Footer() {
                 </span>
             </div>
             <div className='flex flex-col'>
-                <h2 className='font-semibold font-cormorant text-5xl mb-6'>Address Info</h2>
+                <h2 className='font-semibold font-cormorant text-base lg:text-3xl mb-6'>Address Info</h2>
                 <div className='grid grid-cols-1 text-base lg:text-2xl gap-y-3 gap-8'>
                     <h3 className='text-primaryText pr-4'>Phone: <span className='text-white'>+880-1776-766-767</span></h3>
                     <h3 className='text-primaryText pr-4'>Email: <span className='text-white'>info@example.com</span></h3>

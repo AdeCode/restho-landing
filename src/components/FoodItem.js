@@ -24,7 +24,7 @@ function FoodItem() {
                 </button>
             </div>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-3 items-center gap-14'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 items-center justify-center gap-14'>
             {
                 foodData.map(food => (
                     <MenuCard

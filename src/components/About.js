@@ -64,7 +64,7 @@ function About() {
                         <h3 className='text-primaryText text-xl lg:text-3xl'>About to Restho</h3>
                         <img src={sub} alt='sub' width='30px'/>
                     </div>
-                    <h2 className='font-bold text-7xl font-cormorant'>Come to Our Restaurant, Ready Your Food.</h2>
+                    <h2 className='font-bold text-6xl font-cormorant'>Come to Our Restaurant, Ready Your Food.</h2>
                     <p className=''>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
                         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
