@@ -4,8 +4,7 @@ import logo from '../images/logo.svg'
 
 function Navbar() {
   return (
-    // <Nav className='w-full sticky top-0 z-10'>
-      <div className='bg-white py-6 px-6 lg:w-[80%] rounded-3xl lg:rounded-full flex justify-between w-full absolute sticky top-0 z-10'>
+      <div className='bg-white shadow py-6 px-6 lg:w-[90%] rounded-3xl lg:rounded-full flex justify-between w-full left-[5%] sticky top-0 z-10'>
         <img src={logo} alt='logo' />
         <nav className='flex items-center'>
           <ul className='flex justify-between gap-6 items-center'>
@@ -43,7 +42,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-const Nav = styled.nav` 
-  background: linear-gradient(90deg,#000,#09161d)
-`

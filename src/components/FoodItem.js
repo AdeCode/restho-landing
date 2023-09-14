@@ -7,7 +7,7 @@ import sub from '../images/sub-title.svg'
 function FoodItem() {
     console.log(foodData)
   return (
-    <div className='flex flex-col px-[200px] py-[150px]'>
+    <div className='flex flex-col px-[200px] py-[150px] bg-white'>
         <div className='flex items-center justify-between mb-10'>
             <div className='flex flex-col'>
                 <div className='flex gap-5 mb-5'>
