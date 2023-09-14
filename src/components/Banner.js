@@ -16,7 +16,7 @@ function Banner() {
                         <h3 className='text-primaryText text-lg lg:text-xl'>Welcome to Restho</h3>
                     <img src={sub} alt='sub'/>
                 </div>
-                <h2 className='text-lg lg:text-5xl font-bold font-cormorant mb-8'>Find Your Best Healthy &amp; Tasty Food.</h2>
+                <h2 className='text-lg lg:text-7xl font-bold font-cormorant mb-8'>Find Your Best Healthy &amp; Tasty Food.</h2>
                 <p className='mb-10'>It is a long estalished fact that a reader will be distracted by the readabe content of a page.</p>
 
                 <button className='border border-primaryText text-primaryText py-5 px-5 rounded-full'>Discover More</button>
