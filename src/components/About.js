@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 
 function About() {
     return (
-        <div className='bg-white px-[200px] py-[150px]' >
+        <div className='bg-white px-[100px] py-[150px]' >
             <div className='px-10 flex mb-[150px]'>
             <Swiper
                 spaceBetween={20}

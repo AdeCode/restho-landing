@@ -9,7 +9,7 @@ import img22 from '../images/img22.png'
 function Banner() {
   return (
     <Section className='pb-6'>
-        <div className='banner text-white grid grid-cols-2 px-[100px] py-7 h-auto pb-[200px]'>
+        <div className='banner text-white grid grid-cols-2 px-[50px] py-7 h-auto pb-[200px]'>
             <div className='pt-20'>
                 <div className='flex gap-2 mb-5'>
                     <img src={sub} alt='sub'/>
