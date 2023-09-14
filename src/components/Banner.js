@@ -21,7 +21,7 @@ function Banner() {
 
                 <button className='border border-primaryText text-primaryText py-5 px-5 rounded-full'>Discover More</button>
             </div>
-            <div className='relative'>
+            <div className='relative hidden lg:flex'>
                 <img className='h-auto absolute left-[180px]' src={img1} alt='food'/>
                 <img className='h-auto absolute left-[10px] top-[150px]' src={img3} alt='food'/>
                 <img className='h-auto absolute right-[260px] top-[150px]' src={img22} alt='food'/>

@@ -8,7 +8,7 @@ function TopBar() {
             <span className='text-primaryText'>Opening Hour:</span>
             <h3>9.00 am to 10.00 pm</h3>
         </div>
-        <div className='flex gap-4'>
+        <div className='lg:flex gap-4 hidden'>
             <div className='flex gap-2'>
                 <span class="material-symbols-outlined text-primaryText">mail</span>
                 <h3 className=''>info@example.com</h3>

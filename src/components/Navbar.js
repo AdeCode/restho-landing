@@ -4,9 +4,9 @@ import logo from '../images/logo.svg'
 
 function Navbar() {
   return (
-      <div className='bg-white shadow py-6 px-6 lg:w-[90%] rounded-3xl lg:rounded-full flex justify-between w-full left-[5%] sticky top-0 z-10'>
+      <div className='bg-white shadow py-6 px-6 lg:w-[90%] rounded-full flex justify-between w-full left-[5%] sticky top-0 z-10'>
         <img src={logo} alt='logo' />
-        <nav className='flex items-center'>
+        <nav className='lg:flex hidden items-center'>
           <ul className='flex justify-between gap-6 items-center'>
             <li className='flex items-end'>
               <h3 className='font-semibold text-xl lg:text-2xl'>Home</h3>
@@ -34,7 +34,7 @@ function Navbar() {
             </li>
           </ul>
         </nav>
-        <span className='bg-primaryText hover:bg-black transition-all font-bold text-lg cursor-pointer py-3 px-6 rounded-full text-white'>Find Reservation</span>
+        <span className='bg-primaryText lg:flex hidden hover:bg-black transition-all font-bold text-lg cursor-pointer py-3 px-6 rounded-full text-white'>Find Reservation</span>
       </div>
     // </Nav>
 
