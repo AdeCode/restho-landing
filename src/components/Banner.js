@@ -24,7 +24,7 @@ function Banner() {
             <div className='relative hidden lg:flex'>
                 <img className='h-auto absolute left-[180px]' src={img1} alt='food'/>
                 <img className='h-auto absolute left-[10px] top-[150px]' src={img3} alt='food'/>
-                <img className='h-auto absolute right-[260px] top-[150px]' src={img22} alt='food'/>
+                <img className='h-auto absolute right-[150px] top-[150px]' src={img22} alt='food'/>
                 <img className='h-auto absolute left-[130px] top-[300px]' src={img4} alt='food'/>
             </div>
         </div>
