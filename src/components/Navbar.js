@@ -4,7 +4,7 @@ import logo from '../images/logo.svg'
 
 function Navbar() {
   return (
-      <div className='bg-white shadow py-6 px-6 lg:w-[90%] rounded-full flex justify-between w-full left-[5%] sticky top-0 z-10'>
+      <div className='bg-white shadow py-3 px-6 lg:w-[90%] rounded-full flex justify-between w-full left-[5%] sticky top-0 z-10'>
         <img src={logo} alt='logo' />
         <nav className='lg:flex hidden items-center'>
           <ul className='flex justify-between gap-6 items-center'>
