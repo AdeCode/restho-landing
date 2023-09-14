@@ -2,7 +2,7 @@ import React from 'react'
 
 function MenuCard({image,name, details, price}) {
   return (
-    <div className='flex flex-col w-full lg:w-[400px]'>
+    <div className='flex flex-col w-full lg:w-[300px]'>
         <div className='relative'>
             <img src={image} alt='food' className='rounded-t-xl'/>
             <span className='bg-white py-2 text-base font-semibold px-6 rounded-l-[18px] text-black absolute top-4 right-0'>Lanch</span>
